@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Paystack Website</title>
+     <link rel="stylesheet" href="signup.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+     <script src="https://use.fontawesome.com/b8c68483c9.js"></script>
+  </head>
+  <body>
+    <div class="login-logo-container">
+      <div class="logo-container">
+          <a href="index.html"><img src="image/paystack login logo.svg"></a>
+      </div>
+    </div>
+    <div class="form-container">
+      <form class="form" method="post" action="#">
+        <h3>create your account</h3>
+        <div class="form-group">
+          <label class="form-label">Country <span><a href="#" target="_blank">Other Countries</a></span></label>
+            <select class="countries">
+              <option value="" disabled>Select Country</option>
+              <option value="ghana">Ghana</option>
+              <option value="nigeria" selected>Nigeria</option>
+              <option value="south-africa">South Africa</option>
+            </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Business name</label>
+          <input type="business-name" class="business-name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">First name</label>
+          <input type="first-name" class="first-name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Last name</label>
+          <input type="last-name" class="last-name"  required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Email address</label>
+          <input type="email-address" class="email-address"  required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Phone Number</label>
+           <select class="digits">
+             <option value="" disabled selected hidden>+234</option>
+           </select>
+           <input type="phone-number" class="phone-number number" placeholder="808 669 4637" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Password</label>
+          <input type="password" class="password" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">What type of business do you own?</label>
+          <div>
+            <div class="business-container">
+              <div>
+                <label class="starter-business">
+                  <input type="radio" class="register-radio" value="starter-business"><p>Starter Business</p>
+                </label>
+              </div>             
+              <p class="text">I'm testing my ideas with real customers, and preparing to register my company</p>
+            </div>
+            <div class="business-container">
+              <div>
+                <label class="register-business">
+                  <input type="radio" class="register-radio" value="register-business"><p>Register Business</p>
+                </label>
+              </div>              
+              <p class="text">My business has the approval, documentation, and licences required to operate legally</p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Are you a Software Developer?</label>
+          <div class="pick-one">
+            <input type="radio" class="radio-left" value="true"><p class="radio-text">Yes, I am</p>
+            <input type="radio" class="radio-right" value="false"><p class="radio-text">No, I'm not</p>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="give-consent">
+            <input type="checkbox" id="give-consent" class="checkbox">
+            <p>I consent to the collection and processing of my personal data in line with data regulations as described in the <a href="#">Paystack Privacy Policy</a></p>
+          </div>
+        </div>
+        <div class="form-group">
+          <button class="signup-button"><a href="#">Create My account</a></button>
+        </div>
+        <div class="form-group">
+          <div class="acceptable-use"><p>By clicking the “Create your account” button, you agree to Paystack’s<a href="#"> terms of acceptable use</a></p></div>
+        </div>
+      </form>
+      <div class="access-base">
+        <div class="login">
+          <p>Already have an account?<a href="#"> Login</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="support-container">
+      <div class="support-button">
+        <div class="support"><a href="https://support.paystack.com/hc/en-us"><i class="fa fa-question-circle-o"></i>support</a></div> 
+      </div> 
+    </div> 
+  </body>
+</html>
+ 
+   
